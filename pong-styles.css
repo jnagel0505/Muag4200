@@ -16,7 +16,7 @@ body {
   position: absolute;
   background-size: cover;
   background-image:
-        url("background.jpg");
+        url("backgroundpicture.jpg");
 }
 
 #left-paddle {
