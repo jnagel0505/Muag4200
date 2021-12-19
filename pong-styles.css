@@ -3,6 +3,11 @@ Some properties like position and size get set by the game
 Feel free to play with things like color or font
 */
 
+/*The theme will be like a heaven v hell or light v dark game, with two oppposing sides. Ideally, I would
+like the music and sounds to be responsive to the game state so aurally one side or another can be "winning".
+I updated the colors of the paddles and ball but I don't know how to change shape or use an image yet.*/
+
+
 html,
 body {
   padding: 0;
