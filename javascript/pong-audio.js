@@ -52,7 +52,7 @@ soundArray.push(paddleSound);
 export var scoreSound = new soundFile("PongLightScore.wav");
 soundArray.push(scoreSound);
 
-export var ambientSound = new soundFile("PongLightScore.wav");
+export var ambientSound = new soundFile("Verdi_Requiem_-_Dies_Irae_(getmp3.pro).mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
 ambientSound.player.volume.value = -20; //turn down volume
