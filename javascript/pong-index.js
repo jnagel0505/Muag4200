@@ -74,8 +74,7 @@ function gameProcess() {
     leftScoreHigher.turnOn();
   }
 
-   ambientSound.player.playbackRate = 0
-  );
+   ambientSound.player.playbackRate = 0;
   //EVENTS
   // this is a non-persistant event so it only needs to be checked
   if (ballHitWall.state === true) {
