@@ -74,7 +74,7 @@ function gameProcess() {
     leftScoreHigher.turnOn();
   }
 
-  ambientSound.player.playbackRate = 1
+  ambientSound.player.playbackRate = 0
   );
   //EVENTS
   // this is a non-persistant event so it only needs to be checked
