@@ -62,6 +62,7 @@ paddlesReset();
 
 //STARTUP EVENTS
 ambientSound.play();
+ambientSound.player.playbackRate = 0
 
 //RUNNING PROCESSES (updated every frame of the game)
 function gameProcess() {
