@@ -82,7 +82,6 @@ function gameProcess() {
   // this is a non-persistant event so it only needs to be checked
   if (ballHitWall.state === true) {
     wallSound.play();
-    ambientSound.player.volume.value += 10
   }
   if (ballHitPaddleLeft.state) {
     paddleSoundLeft.play();
@@ -92,9 +91,13 @@ function gameProcess() {
   }
   if (leftScoreHit.state) {
     scoreSoundLeft.play();
+    adventureMusic.player.volume.value += 5;
+    villageMusic.player.volume.value -= 5;
   }
   if (rightScoreHit.state) {
     scoreSoundRight.play();
+    adventureMusic.player.volume.value += 5;
+    villageMusic.player.volume.value -= 5;
   }
   //this is a persistant event so it must be checked and checked if it changed
   if (rightScoreHigher.state && rightScoreHigher.changed) {
