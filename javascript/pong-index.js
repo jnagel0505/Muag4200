@@ -82,6 +82,7 @@ function gameProcess() {
   // this is a non-persistant event so it only needs to be checked
   if (ballHitWall.state === true) {
     wallSound.play();
+    ambientSound.player.volume.value += 10
   }
   if (ballHitPaddleLeft.state) {
     paddleSoundLeft.play();
