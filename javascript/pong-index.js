@@ -10,7 +10,8 @@ RUNNING PROCESSES - things that will run every frame
 //Sound functions and classes
 import {
   wallSound,
-  paddleSound,
+  paddleSoundLeft,
+  paddleSoundRight,
   scoreSound,
   ambientSound,
   adventureMusic,
@@ -24,7 +25,8 @@ import {
   GameEvent,
   gameEventArray,
   ballHitWall,
-  ballHitPaddle,
+  ballHitPaddleLeft,
+  ballHitPaddleRight,
   leftScoreHit,
   rightScoreHit,
   leftScoreHigher,
@@ -80,8 +82,11 @@ function gameProcess() {
   if (ballHitWall.state === true) {
     wallSound.play();
   }
-  if (ballHitPaddle.state) {
-    paddleSound.play();
+  if (ballHitPaddleLeft.state) {
+    paddleSoundLeft.play();
+  }
+  if (ballHitPaddleRight.state) {
+    paddleSoundRight.play();
   }
   if (leftScoreHit.state) {
     scoreSound.play();
@@ -192,7 +197,7 @@ function updateBall() {
       ball.direction.x = ball.initial.x * -1; //reset ball speed
       ball.direction.y = ball.initial.y;
     } else {
-      ballHitPaddle.turnOn();
+      ballHitPaddleRight.turnOn();
       paddleRight.hasHit = true;
     }
   }
@@ -225,7 +230,7 @@ function updateBall() {
       ball.direction.x = ball.initial.x; //reset ball speed
       ball.direction.y = ball.initial.y;
     } else {
-      ballHitPaddle.turnOn();
+      ballHitPaddleLeft.turnOn();
       paddleLeft.hasHit = true;
     }
   }
