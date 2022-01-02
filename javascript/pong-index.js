@@ -12,7 +12,8 @@ import {
   wallSound,
   paddleSoundLeft,
   paddleSoundRight,
-  scoreSound,
+  scoreSoundLeft,
+  scoreSoundRight,
   ambientSound,
   adventureMusic,
   villageMusic,
@@ -89,10 +90,10 @@ function gameProcess() {
     paddleSoundRight.play();
   }
   if (leftScoreHit.state) {
-    scoreSound.play();
+    scoreSoundLeft.play();
   }
   if (rightScoreHit.state) {
-    scoreSound.play();
+    scoreSoundRight.play();
   }
   //this is a persistant event so it must be checked and checked if it changed
   if (rightScoreHigher.state && rightScoreHigher.changed) {
