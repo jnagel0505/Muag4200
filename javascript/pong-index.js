@@ -96,8 +96,8 @@ function gameProcess() {
   }
   if (rightScoreHit.state) {
     scoreSoundRight.play();
-    adventureMusic.player.volume.value += 5;
-    villageMusic.player.volume.value -= 5;
+    adventureMusic.player.volume.value -= 5;
+    villageMusic.player.volume.value += 5;
   }
   //this is a persistant event so it must be checked and checked if it changed
   if (rightScoreHigher.state && rightScoreHigher.changed) {
