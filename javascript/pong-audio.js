@@ -46,8 +46,11 @@ export var soundArray = []; //list of sounds loaded
 export var wallSound = new soundFile("WallHit.wav"); //load sound
 soundArray.push(wallSound); //add sound to list of sounds
 
-export var paddleSound = new soundFile("tap-resonant.mp3");
-soundArray.push(paddleSound);
+export var paddleSoundLeft = new soundFile("tap-resonant.mp3");
+soundArray.push(paddleSoundLeft);
+
+export var paddleSoundRight = new soundFile("tap-resonant.mp3");
+soundArray.push(paddleSoundRight);
 
 export var scoreSound = new soundFile("PongLightScore.wav");
 soundArray.push(scoreSound);
