@@ -379,7 +379,7 @@ function controlUpdate() {
     //zero all paddle movement if no keys are down
 
     scoreDisplayUpdate();
-    computerPlayer.changedManual = false; //reset computer player state is changed
+    computerPlayer.changedManual = true; //reset computer player state is changed
     mouseControl.changedManual = false; //reset mouse control state is changed
     muteControl.changedManual = false; //reset mute control state is changed
     volumeUpControl.changedManual = false; //reset volume-up control state is changed
