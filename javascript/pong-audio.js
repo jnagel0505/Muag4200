@@ -46,10 +46,10 @@ export var soundArray = []; //list of sounds loaded
 export var wallSound = new soundFile("WallHit.wav"); //load sound
 soundArray.push(wallSound); //add sound to list of sounds
 
-export var paddleSoundLeft = new soundFile("tap-resonant.mp3");
+export var paddleSoundLeft = new soundFile("PongLightScore.mp3");
 soundArray.push(paddleSoundLeft);
 
-export var paddleSoundRight = new soundFile("tap-resonant.mp3");
+export var paddleSoundRight = new soundFile("PongDarkHit.mp3");
 soundArray.push(paddleSoundRight);
 
 export var scoreSound = new soundFile("PongLightScore.wav");
@@ -60,12 +60,12 @@ soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
 ambientSound.player.volume.value = -20; //turn down volume
 
-export var adventureMusic = new soundFile("Eight_Bit_Village_Loop.mp3");
+export var adventureMusic = new soundFile("PongDarkHit.mp3");
 soundArray.push(adventureMusic);
 adventureMusic.player.loop = true;
 adventureMusic.player.volume.value = -16;
 
-export var villageMusic = new soundFile("phaserDown2.mp3");
+export var villageMusic = new soundFile("PongDarkHit.mp3");
 soundArray.push(villageMusic);
 villageMusic.player.loop = true;
 villageMusic.player.volume.value = -16;
