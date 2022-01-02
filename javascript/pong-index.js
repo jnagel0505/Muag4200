@@ -385,7 +385,6 @@ function controlUpdate() {
     volumeUpControl.changedManual = false; //reset volume-up control state is changed
     volumeDownControl.changedManual = false; //reset volume-down control state is changed
     Tone.Master.mute = game.mute; //set tone.js mute
-    game.computerState = 1
     if (!game.mute) setVolume(game.volume);
     resetScoreAndBall = false; //reset score and ball detect
   }
