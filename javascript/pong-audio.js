@@ -52,8 +52,11 @@ soundArray.push(paddleSoundLeft);
 export var paddleSoundRight = new soundFile("PongDarkHit.mp3");
 soundArray.push(paddleSoundRight);
 
-export var scoreSound = new soundFile("Snowball_2.mp3");
-soundArray.push(scoreSound);
+export var scoreSoundLeft = new soundFile("Snowball_2.mp3");
+soundArray.push(scoreSoundLeft);
+
+export var scoreSoundRight = new soundFile("Snowball_2.mp3");
+soundArray.push(scoreSoundRight);
 
 export var ambientSound = new soundFile("Verdi_Requiem_-_Dies_Irae_(getmp3.pro).mp3");
 soundArray.push(ambientSound);
