@@ -45,6 +45,7 @@ export var soundArray = []; //list of sounds loaded
 
 export var wallSound = new soundFile("WallHit.wav"); //load sound
 soundArray.push(wallSound); //add sound to list of sounds
+wallsound.player.volume.value =-16;
 
 export var paddleSoundLeft = new soundFile("PongLightScore.mp3");
 soundArray.push(paddleSoundLeft);
