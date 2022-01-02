@@ -35,9 +35,13 @@ export var ballHitWall = new GameEvent();
 ballHitWall.persistent = false;
 gameEventArray.push(ballHitWall);
 
-export var ballHitPaddle = new GameEvent();
-ballHitPaddle.persistent = false;
-gameEventArray.push(ballHitPaddle);
+export var ballHitPaddleLeft = new GameEvent();
+ballHitPaddleLeft.persistent = false;
+gameEventArray.push(ballHitPaddleLeft);
+
+export var ballHitPaddleRight = new GameEvent();
+ballHitPaddleRight.persistent = false;
+gameEventArray.push(ballHitPaddleRight);
 
 export var leftScoreHit = new GameEvent();
 leftScoreHit.persistent = false;
