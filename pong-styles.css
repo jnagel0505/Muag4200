@@ -88,8 +88,8 @@ body {
   left: 50px;
   top: 50px;
   background-image:
-        url("BallSmall.png");
-  animation: spinBall 3s linear infinite;
+        url("BallSmall.gif");
+  animation: spinBall .0006s linear infinite;
             box-shadow: 0 0 18px #FFFFFFB3, 
         }
           
