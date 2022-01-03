@@ -59,17 +59,17 @@ soundArray.push(scoreSoundLeft);
 export var scoreSoundRight = new soundFile("PongDarkScore.mp3");
 soundArray.push(scoreSoundRight);
 
-export var ambientSound = new soundFile("Verdi_Requiem_-_Dies_Irae_(getmp3.pro).mp3");
+export var ambientSound = new soundFile("TestAmb.mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
 ambientSound.player.volume.value = -20; //turn down volume
 
-export var adventureMusic = new soundFile("PongDarkHit.mp3");
+export var adventureMusic = new soundFile("TestLeft.mp3");
 soundArray.push(adventureMusic);
 adventureMusic.player.loop = true;
 adventureMusic.player.volume.value = -16;
 
-export var villageMusic = new soundFile("PongDarkHit.mp3");
+export var villageMusic = new soundFile("TestRight.mp3");
 soundArray.push(villageMusic);
 villageMusic.player.loop = true;
 villageMusic.player.volume.value = -16;
