@@ -10,8 +10,9 @@ I updated the colors of the paddles and ball but I don't know how to change shap
 
 html,
 body {
-  padding: 0;
-  margin: 0;
+  position: absolute;
+    top:  10vmin;
+    left: 18vmax;
 }
 
 #game {
@@ -36,9 +37,10 @@ body {
 }
 
 #instructions {
-  display: none;
+  display: unset;
   bottom: 0;
   position: absolute;
+  left: -30vmin;
   margin: 10px;
   font-family: Arial, Helvetica, sans-serif;
 }
