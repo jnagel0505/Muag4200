@@ -58,6 +58,7 @@ soundArray.push(scoreSoundLeft);
 
 export var scoreSoundRight = new soundFile("PongDarkScore.mp3");
 soundArray.push(scoreSoundRight);
+scoreSoundRight.player.volume.value = 10
 
 export var ambientSound = new soundFile("TestAmb.mp3");
 soundArray.push(ambientSound);
