@@ -11,7 +11,7 @@ I updated the colors of the paddles and ball but I don't know how to change shap
 html,
 body {
   position: absolute;
-    top:  10vmin;
+    top:  5vmin;
     left: 18vmax;
   background-color: black;
 }
