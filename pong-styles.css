@@ -75,6 +75,21 @@ body {
   font-weight: 700;
 }
 
+#left-score {
+  left: 1%;
+  color: #76706c;
+}
+
+#right-score {
+  right: 1%;
+  color: #76706c;
+}
+.score {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+}
+
 .paddle {
   top: 0;
   width: 10px;
@@ -92,24 +107,9 @@ body {
   background-image:
         url("BallSmall.gif");
   animation: spinBall 18s linear infinite;
-            box-shadow: 0 0 18px #FFFFFFB3, 
         }
           
         @keyframes spinBall {
             100% {
                 transform: rotate(720deg);
-}
-
-.score {
-  position: absolute;
-  font-family: Arial, Helvetica, sans-serif;
-  top: 0;
-}
-
-#left-score {
-  left: 1%;
-}
-
-#right-score {
-  right: 1%;
 }
