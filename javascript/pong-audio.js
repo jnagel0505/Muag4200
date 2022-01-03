@@ -45,20 +45,21 @@ export var soundArray = []; //list of sounds loaded
 
 export var wallSound = new soundFile("WallHit.wav"); //load sound
 soundArray.push(wallSound); //add sound to list of sounds
-wallSound.player.volume.value = -16;
+wallSound.player.volume.value = 5;
 
 export var paddleSoundLeft = new soundFile("PongLightHit.mp3");
 soundArray.push(paddleSoundLeft);
 
 export var paddleSoundRight = new soundFile("PongDarkHit.mp3");
 soundArray.push(paddleSoundRight);
+paddleSoundRight.player.volume.value = 6;
 
 export var scoreSoundLeft = new soundFile("PongLightScore.mp3");
 soundArray.push(scoreSoundLeft);
 
 export var scoreSoundRight = new soundFile("PongDarkScore.mp3");
 soundArray.push(scoreSoundRight);
-scoreSoundRight.player.volume.value = 10
+scoreSoundRight.player.volume.value = 12
 
 export var ambientSound = new soundFile("Ambience.mp3");
 soundArray.push(ambientSound);
