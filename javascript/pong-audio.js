@@ -45,7 +45,7 @@ export var soundArray = []; //list of sounds loaded
 
 export var wallSound = new soundFile("WallHit.wav"); //load sound
 soundArray.push(wallSound); //add sound to list of sounds
-wallSound.player.volume.value = 5;
+wallSound.player.volume.value = -5;
 
 export var paddleSoundLeft = new soundFile("PongLightHit.mp3");
 soundArray.push(paddleSoundLeft);
@@ -74,4 +74,4 @@ adventureMusic.player.volume.value = -25;
 export var villageMusic = new soundFile("Right.mp3");
 soundArray.push(villageMusic);
 villageMusic.player.loop = true;
-villageMusic.player.volume.value = -15;
+villageMusic.player.volume.value = -13;
