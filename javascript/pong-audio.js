@@ -73,4 +73,4 @@ adventureMusic.player.volume.value = -25;
 export var villageMusic = new soundFile("Right.mp3");
 soundArray.push(villageMusic);
 villageMusic.player.loop = true;
-villageMusic.player.volume.value = -20;
+villageMusic.player.volume.value = -15;
