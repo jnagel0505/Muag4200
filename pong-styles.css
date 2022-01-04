@@ -45,12 +45,12 @@ body {
 }
 
 #right-paddle {
-  background-color: black;
+  background-color: gray;
   right: 10px;
 }
 
 #instructions {
-  display: unset;
+  display: none;
   bottom: 0;
   position: absolute;
   left: -30vmin;
